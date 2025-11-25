@@ -4,7 +4,7 @@ from flask import jsonify
 
 # Configure Gemini API
 # Using the provided API key
-GEMINI_API_KEY = "api here please"
+GEMINI_API_KEY = "AIzaSyCiceauLezyGHSiggTm_3_hg0IJTn4thog"
 genai.configure(api_key=GEMINI_API_KEY)
 
 def get_agriculture_response(message, history=[], language="English"):
